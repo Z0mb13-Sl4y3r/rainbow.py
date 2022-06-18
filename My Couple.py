@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+br.addheaders = [('user-agent: Mozilla/5.0 (Linux; Android 11; Infinix X689B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36')]
 
 
 def keluar():
@@ -81,8 +81,6 @@ print  """\033[1;96m [¤] \x1b[1;93mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤]
 \033[1;96m [¤] \x1b[1;93mWelcome To My Tools\x1b[1;96m      [¤] \x1b[1;93mDownlods Dulu Login Scnya\x1b[1;96m  
 \033[1;96m [¤] \x1b[1;93mMr.Nothing\x1b[1;96m  [¤] \x1b[1;93mYOUTUBE  : Rimuru\x1b[1;96m"""
 print " \x1b[1;93m============================================================="
-
-else:
 print "Web Downloads Login Sc"
 os.system('xdg-open https://daniblogs.com/BF/16442rg')
 
